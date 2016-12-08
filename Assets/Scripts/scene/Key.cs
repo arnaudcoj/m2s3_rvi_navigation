@@ -34,7 +34,7 @@ public class Key : MonoBehaviour {
 
 			//Global conditions : no matter what device you use, these conditions have to be met to succesfully complete your action.
 			if (taken == false) {
-
+				
 				//First way to get a key : being close enough to it. (no y axis)
 				if(Vector2.Distance (
 					new Vector2(
